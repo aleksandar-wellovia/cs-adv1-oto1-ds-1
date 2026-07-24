@@ -1988,27 +1988,12 @@ body,
 /* guarantee badge size */
 .warming-oil-source .guarantee-badge{margin:4px 0 10px !important;}
 .warming-oil-source .guarantee-badge img{max-width:240px !important;width:60% !important;height:auto !important;margin:4px auto 2px !important;display:block !important;box-shadow:none !important;border:none !important;}
-/* lastminute badge pulse */
-@keyframes badgePulse{
-0%,100%{transform:scale(1);}
-50%{transform:scale(1.07);}
-}
-@keyframes badgePulseDesktop{
-0%,100%{transform:translateY(-50%) scale(1);}
-50%{transform:translateY(-50%) scale(1.07);}
-}
 /* lastminute badge */
-#header-break{margin-bottom:90px !important;}
-.warming-oil-source .hero-wrap{position:relative !important;overflow:visible !important;}
-.warming-oil-source .lastminute-badge{position:absolute !important;top:0 !important;right:-20px !important;transform:translateY(-50%);max-width:300px !important;margin:0 !important;z-index:5 !important;background:transparent !important;border:0 !important;border-radius:0 !important;padding:0 !important;min-height:0 !important;animation:badgePulseDesktop 2s ease-in-out infinite !important;}
-.warming-oil-source .lastminute-badge img{max-width:300px !important;border-radius:0 !important;}
-.warming-oil-source .lastminute-badge-mobile-wrap{display:none !important;}
+.warming-oil-source .lastminute-badge{text-align:center;margin:-25px auto 10px !important;background:transparent !important;border:0 !important;border-radius:0 !important;padding:0 !important;min-height:0 !important;}
+.warming-oil-source .lastminute-badge img{max-width:450px !important;width:70% !important;height:auto !important;border-radius:0 !important;}
 @media only screen and (max-width:767px){
-#header-break{margin-bottom:24px !important;}
-.warming-oil-source .lastminute-badge{display:none !important;}
-.warming-oil-source .lastminute-badge-mobile-wrap{display:block !important;text-align:center;margin:0 auto 16px !important;background:transparent !important;border:0 !important;padding:0 !important;}
-.warming-oil-source .lastminute-badge-mobile{display:inline-block !important;background:transparent !important;border:0 !important;padding:0 !important;margin:0 !important;animation:badgePulse 2s ease-in-out infinite !important;}
-.warming-oil-source .lastminute-badge-mobile img{max-width:260px !important;width:100% !important;height:auto !important;border-radius:0 !important;}
+.warming-oil-source .lastminute-badge{margin-top:-21px !important;}
+.warming-oil-source .lastminute-badge img{max-width:300px !important;width:80% !important;}
 }
 /* hide price badges */
 .warming-oil-source .pricebox .product-oil-photo::after{display:none !important;}
@@ -2032,7 +2017,8 @@ body,
                 <p class="ups1-hd1">🎁 <span class="warning-red">WAIT:</span> <span class="warning-black">Get Your 3rd Bottle on Us</span></p>
                 <hr class="headline-break" id="header-break">
                 <div class="content-edit-anchor warming-oil-content warming-oil-source">
-    <div class="photo photo1-hero hero-wrap"><div class="lastminute-badge"><img src="lastminute1.png" alt="Last minute offer"></div><img src="productph.png" alt="Nurovita product"></div>
+    <div class="lastminute-badge"><img src="lastminute1.png" alt="Last minute offer"></div>
+    <div class="photo photo1-hero"><img src="productph.png" alt="Nurovita product"></div>
 <style>
 .coupon-bar{width:100%;max-width:900px;margin:-34px auto 34px;background:#07375d;border-radius:0 0 10px 10px;padding:14px 22px;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:14px;}
 .coupon-left{display:flex;flex-direction:column;gap:0;}
@@ -2089,8 +2075,6 @@ body,
   },1000);
 })();
 </script>
-
-  <div class="lastminute-badge-mobile-wrap"><div class="lastminute-badge-mobile"><img src="lastminute1.png" alt="Last minute offer"></div></div>
 
   <section>
     <p class="line b">I Know 5 Bottles Was Too Much.</p>
